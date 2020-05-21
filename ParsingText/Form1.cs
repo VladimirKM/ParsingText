@@ -24,7 +24,7 @@ namespace ParsingText
         private void btnRead_Click(object sender, EventArgs e)
         {
             Reading(tboxFileName.Text, listVal);
-            string t = "22222";
+            
         }
         //static async Task Reading(string[] args)
         
