@@ -54,7 +54,7 @@ namespace ParsingText
         }
 
         static async Task Writing(string pathFile, ArrayList listVal)
-        {
+        {//запись выбранного списка в файл
             var LenthList = listVal.Count;
             if (LenthList > 0)
             {
