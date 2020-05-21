@@ -41,8 +41,8 @@ namespace ParsingText
                 //listVal = new ArrayList();
                 while ((line = await sr.ReadLineAsync()) != null)
                 {
-                    Match m = Regex.Match(line, regularExpression);
-                    if (m.Success)
+                    Match m = Regex.Match(line, regularExpression); 
+                    if (m.Success)   // совпадение
                     {
                         listVal.Add(m.Value);
                         count++;
